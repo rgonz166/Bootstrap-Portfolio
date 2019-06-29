@@ -1,0 +1,24 @@
+.ml-auto {
+    padding-right: 150px;
+}
+
+.navbar-brand {
+    padding-left: 200px;
+}
+
+.logo-width{
+    width: 200px;
+}
+.auth-image {
+    width: 200px;
+    padding-right: 25px;
+}
+.main-section{
+    padding-top: 50px;
+    font-size: 20px;
+}
+p {
+    font-family: 'Quicksand', sans-serif;
+
+}
+
