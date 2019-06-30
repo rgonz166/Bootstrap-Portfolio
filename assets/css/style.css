@@ -41,15 +41,7 @@ margin-bottom: 20px;
 p:last-child {
     margin-bottom: 0;
 }
-.main-section {
-    float: left;
-    width: 100%;
-    max-width: 960px;
-    padding: 30px;
-    margin: 40px 0;
-    background: #ffffff;
-    border: 1px solid #dddddd;
-}
+
 footer {
     padding: 30px 0;
     clear: both;
@@ -65,3 +57,94 @@ footer {
     padding-top: 50px;
     min-height: calc(100vh - 129px);
 }
+.main-section {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 40px 0;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+}
+/* portfolio page */
+
+.work {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
+}
+
+.work:nth-child(even) {
+margin-right: 40px;
+}
+
+.work img {
+width: 100%;
+border: 0 none;
+opacity: 0.8;
+}
+
+.work h3 {
+position: absolute;
+bottom: 20px;
+width: 100%;
+padding: 15px;
+margin-bottom: 0;
+font-weight: 300;
+line-height: 30px;
+color: #ffffff;
+text-align: center;
+background: #76818c;
+border-bottom: 0;
+}
+
+.auth-image {
+float: left;
+width: 200px;
+height: auto;
+margin-top: 10px;
+margin-right: 25px;
+}
+
+/* contact page */
+
+#contact-form ul {
+margin-bottom: 20px;
+}
+
+#contact-form li {
+margin-bottom: 10px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+display: block;
+width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+height: 35px;
+padding: 0 10px;
+font-size: 14px;
+border: 1px solid #dddddd;
+}
+
+textarea {
+height: 200px;
+}
+
+input[type=submit] {
+padding: 10px 30px;
+font-size: 18px;
+color: #ffffff;
+cursor: pointer;
+background: #76818c;
+border: 0 none;
+}
+    
